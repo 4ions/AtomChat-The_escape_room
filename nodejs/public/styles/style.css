@@ -1,0 +1,716 @@
+/*----------------General Document------------------------*/
+
+* {
+	margin: 0px;
+}
+
+body {
+	background-color: black;
+}
+
+/*-------------------Header CSS styles--------------------*/
+
+.header {
+	height: 80px;
+	width: 100%;
+	background-color: black;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	/*border-bottom: lightgrey solid 1px;*/
+}
+
+.header_contain {
+	height: 80px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1;
+}
+
+.header_logo {
+	height: 50%;
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.logo {
+	height: 100%;
+}
+
+.nav_menu {
+	display: flex;
+	align-items: center;
+	width: 70%;
+	justify-content: space-around;
+
+}
+
+.nav_item {
+	color: white;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.nav_point {
+	height: 3px;
+}
+
+.nav_menu_right {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 25%;
+}
+
+.play_now_button {
+	background-color: black;
+	border: #ce1212 solid 2px;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 20px;
+	/*margin-left: 15px;*/
+	/*margin-right: 15px;*/
+	cursor: pointer;
+	transition-duration: 0.6s;
+}
+
+.play_now_button:hover {
+	background-color: #ce1212;
+}
+
+.social_media_logos {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 35%;
+}
+
+/*----------------Main CSS styles--------------------*/
+
+.main {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background-image: url(https://github.com/ANDRESOTELO/escape_room_landing_page/blob/main/basement_1920x980.png?raw=true);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.architecture_main {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	background-image: url(https://github.com/ANDRESOTELO/escape_room_landing_page/blob/main/chains_1920x980-03.png?raw=true);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.architecture_main_left {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+
+.architecture_main_right {
+	width: 60%;
+	margin-top: 7%;
+	margin-bottom: 8%;
+	margin-right: 4%;
+}
+
+.flow_chart_img {
+	width: 100%;
+}
+
+.time_run_div {
+	position: relative;
+	margin-left: 70px;
+	margin-top: 180px;
+}
+
+.time_run_image {
+	width: 50%;
+}
+
+.architecture_div {
+	position: relative;
+	margin-left: 70px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.architecture_title {
+	width: 70%;
+}
+
+.photo_text {
+	position: relative;
+	color: white;
+	font-size: 1.1em;
+	margin-left: 70px;
+	margin-top: 30px;
+	margin-right: 50%;
+}
+
+.photo_text_p {
+	font-family: 'Poppins', sans-serif;
+}
+
+.button_div {
+	margin-left: 70px;
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+
+.button {
+	position: relative;
+	background-color: #ce1212;
+	color: #FFFFFF;
+	border: none;
+	padding: 15px 32px;
+	font-size: 16px;
+	width: 250px;
+	transition: all 0.8s;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #7e0909;
+	color: white;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.8s;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 25px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+/*------Architecture button-------*/
+.button_volver {
+	position: relative;
+	background-color: #ce1212;
+	color: #FFFFFF;
+	border: none;
+	padding: 15px 32px;
+	font-size: 1em;
+	width: 200px;
+	transition: all 0.8s;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.button_volver:hover {
+	background-color: #7e0909;
+	color: white;
+}
+
+.button_volver span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.8s;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.button_volver span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button_volver:hover span {
+	padding-right: 25px;
+}
+
+.button_volver:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+/*---------------Game section CSS styles-------------------*/
+
+.game_section_container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.bottom_row {
+	width: 2em;
+	opacity: 0.5;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.game_section_container h2{
+	color: white;
+	font-family: 'Khand', sans-serif;
+	font-size: 2em;
+	padding-top: 5px;
+}
+
+.hr_titles {
+	margin-bottom: 30px;
+	margin-top: 10px;
+	height: 2px;
+	width: 3%;
+	color: lightgray;
+	background-color:lightgray;
+	border-width:0;
+	border-radius: 2px;
+}
+
+.game_card {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 90%;
+	margin-bottom: 40px;
+}
+
+.game_card_text {
+	width: 50%;
+	background-color: rgb(26, 26, 26);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 0px 20px 20px 0px;
+	z-index: 1;
+}
+
+.mision_4_ions{
+	margin-top: 30px;
+	width: 30%;
+}
+
+.mision_4_ions img{
+	width: 100%;
+}
+
+.hr_story_title {
+	margin: 20px;
+	height: 2px;
+	width: 10%;
+	color: lightgray;
+	background-color:lightgray;
+	border-width:0;
+	border-radius: 2px;
+}
+
+.game_story {
+	padding: 10px 40px 20px 40px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+	line-height: 140%;
+	font-size: 16px;
+}
+
+.game_card_image_div {
+	width: 50%;
+	background-color:black;
+}
+
+.game_card_image_img {
+	width: 100%;
+	transition: 0.5s;
+}
+
+.game_card_image_img:hover {
+	transform: scale(1.1);
+	transition: 0.5s;
+
+}
+
+.game_card_button_div {
+	margin: 20px 0px 30px 0px;
+}
+
+.game_card_button {
+	background-color: rgb(26, 26, 26);
+	border: #ce1212 solid 3px;
+	padding: 15px 32px;
+	font-size: 16px;
+	width: 250px;
+	transition: all 0.8s;
+	border-radius: 40px;
+	cursor: pointer;
+}
+
+.game_card_button:hover {
+	background-color: #ce1212;
+}
+
+/*----------------How works CSS styles--------------------*/
+
+/*Container*/
+.how_works_section {
+	background-color: rgb(240, 240, 240);
+	position: relative;
+	padding: 150px 0px 150px 0px;
+}
+.how_works_main_div {
+	width: 100%;
+	background-color: rgb(240, 240, 240);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.hr_how_works {
+	height: 4px;
+	width: 80px;
+	color: #F1B416;
+	background-color:#F1B416;
+	border-width:0;
+	border-radius: 2px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+/*Text container*/
+.how_works_text_div {
+	width: 50%;
+	margin-left: 30px;
+}
+
+.how_works_text_title {
+	padding-left: 20px;
+	font-family: 'Khand', sans-serif;
+	font-size: 2em;
+	line-height: 120%;
+}
+
+.how_works_text_paragraph {
+	padding: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+
+/*Image container*/
+.how_works_image_div {
+	width: 30%;
+	margin-right: 100px;
+	transition: 0.5s;
+	opacity: 0.9;
+	border-radius: 15px;
+	background-color: rgb(185, 185, 185);
+}
+
+.how_works_img {
+	width: 100%;
+	border-radius: 15px;
+}
+
+.how_works_image_div:hover {
+	transform: scale(1.05);
+	transition: 0.5s;
+	opacity: initial;
+	box-shadow: 0 4px 8px 0 rgba(95, 0, 0, 0.2), 0 6px 20px 0 rgba(95, 0, 0, 0.19);
+}
+
+/*----------------Challenge CSS styles--------------------*/
+
+/*Container*/
+.challenge_section {
+	background-color: black;
+	position: relative;
+	padding: 80px 0px 80px 0px;
+}
+
+.challenge_section_description {
+	width: 100%;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.challenge_section_title_left {
+	padding-right: 40px;
+}
+
+.challenge_section_title_right {
+	width: 70%;
+	padding-left: 50px;
+}
+
+.challenge_title{
+	font-family: 'Khand', sans-serif;
+	font-size: 2em;
+	color: white;
+}
+
+.hr_challenge {
+	height: 4px;
+	width: 50px;
+	color: #F1B416;
+	background-color:#F1B416;
+	border-width:0;
+	border-radius: 2px;
+}
+
+.hr_card {
+	/*margin-left: 20px;*/
+	margin-bottom: 20px;
+	width: 30px;
+}
+
+.challenge_section_paragraph {
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-weight: 200;
+}
+
+.challenge_section_cards_div {
+	background-color: black;
+	width: 100%;
+	display: flex;
+	align-items: stretch;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.challenge_section_card {
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(26, 26, 26);
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+.challenge_section_card:hover {
+	transform: scale(1.05);
+	transition: 0.5s;
+}
+
+.challenge_card_img {
+	padding: 40px 0px 30px 0px;
+}
+
+.challenge_card_paragraph {
+	padding: 0px 40px 50px 40px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-weight: 100;
+}
+
+.left_card {
+	margin-left: 40px;
+}
+
+.right_card {
+	margin-right: 40px;
+}
+
+/*----------------About US CSS styles--------------------*/
+
+/*Container*/
+.about_section {
+	background-color: rgb(240, 240, 240);
+	position: relative;
+	padding: 60px 0px 60px 0px;
+}
+
+.about_section_description {
+	width: 100%;
+	background-color: rgb(240, 240, 240);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.about_section_title_left {
+	padding-left: 40px;
+}
+
+.about_title {
+	font-family: 'Khand', sans-serif;
+	font-size: 2em;
+	color: rgb(26, 26, 26);
+}
+
+.hr_challenge {
+	height: 4px;
+	width: 50px;
+	color: #f1b316f6;
+	background-color:#F1B416;
+	border-width:0;
+	border-radius: 2px;
+}
+
+.about_section_title_right {
+	width: 70%;
+	padding-right: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.atom_logo {
+	padding: 0px;
+	width: 80%;
+}
+
+.logo_atom {
+	width: 100%;
+}
+
+.about_section_paragraph {
+	font-family: 'Poppins', sans-serif;
+	color: rgb(26, 26, 26);
+	font-weight: 200;
+	margin-left: 30px;
+}
+
+/*--About cards section--*/
+
+.about_section_cards_div {
+	width: 100%;
+	display: flex;
+	align-items: stretch;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.about_section_card {
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.about_card_img:hover {
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+.about_card_img {
+	padding: 40px 0px 30px 0px;
+	width: 50%;
+	transition: 0.5s;
+}
+
+.hr_card {
+	/*margin-left: 20px;*/
+	margin-bottom: 20px;
+	width: 20px;
+}
+
+.about_card_name {
+	padding: 0px 0px 0px 10px;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(26, 26, 26);
+	font-weight: 600;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.about_card_paragraph {
+	padding: 0px 10px 10px 10px;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(26, 26, 26);
+	font-weight: 200;
+	font-size: 1em;
+	text-align: center;
+}
+
+.about_social {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0px 10px 0px;
+}
+
+
+.about_social_logos img{
+	margin: 0px 10px;
+}
+
+.linkedin {
+	margin-left: 30px;
+}
+
+.github {
+	margin-right: 30px;
+}
+
+.about_social_name {
+	font-family: 'Poppins', sans-serif;
+	color: rgb(26, 26, 26);
+	font-weight: 300;
+	padding: 5px;
+}
+
+.about_left_card {
+	margin-left: 40px;
+}
+
+.about_right_card {
+	margin-right: 40px;
+}
+
+/*-------------------Footer CSS styles-------------------*/
+.footer {
+	width: 100%;
+	background-color: rgb(26, 26, 26);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px 0px 15px 0px;
+}
+
+.archi_footer {
+	position: absolute;
+	bottom: 0;
+}
+
+.logo_footer_img {
+	width: 120px;
+	opacity: 0.9;
+}
+.text_footer {
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 0.8em;
+	padding-top: 5px;
+}

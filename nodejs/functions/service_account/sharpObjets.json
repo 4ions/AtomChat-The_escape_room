@@ -1,0 +1,65 @@
+{
+    "isRegexp": false,
+    "isEnum": true,
+    "allowFuzzyExtraction": false,
+    "name": "sharp_objects",
+    "automatedExpansion": false,
+    "entries": [
+      {
+        "value": "cuchillo",
+        "synonyms": [
+          "cuchillo"
+        ]
+      },
+      {
+        "value": "navaja",
+        "synonyms": [
+          "navaja"
+        ]
+      },
+      {
+        "value": "llave",
+        "synonyms": [
+          "llave"
+        ]
+      },
+      {
+        "value": "Tijera",
+        "synonyms": [
+          "Tijera"
+        ]
+      },
+      {
+        "value": "esfero",
+        "synonyms": [
+          "esfero"
+        ]
+      },
+      {
+        "value": "daga",
+        "synonyms": [
+          "daga"
+        ]
+      },
+      {
+        "value": "espada",
+        "synonyms": [
+          "espada"
+        ]
+      },
+      {
+        "value": "sierra",
+        "synonyms": [
+          "sierra"
+        ]
+      },
+      {
+        "value": "hacha",
+        "synonyms": [
+          "hacha"
+        ]
+      }
+    ],
+    "id": "3cc10d6d-9653-41de-9a20-c5e7274836b8",
+    "isOverridable": false
+  }

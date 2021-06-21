@@ -1,0 +1,71 @@
+{
+    "isRegexp": false,
+    "isEnum": true,
+    "allowFuzzyExtraction": false,
+    "name": "lighting_objects",
+    "automatedExpansion": false,
+    "entries": [
+      {
+        "value": "linterna",
+        "synonyms": [
+          "linterna"
+        ]
+      },
+      {
+        "value": "vela",
+        "synonyms": [
+          "vela"
+        ]
+      },
+      {
+        "value": "lámpara",
+        "synonyms": [
+          "lámpara"
+        ]
+      },
+      {
+        "value": "mechero",
+        "synonyms": [
+          "mechero"
+        ]
+      },
+      {
+        "value": "reflector",
+        "synonyms": [
+          "reflector"
+        ]
+      },
+      {
+        "value": "fósforo",
+        "synonyms": [
+          "fósforo"
+        ]
+      },
+      {
+        "value": "led",
+        "synonyms": [
+          "led"
+        ]
+      },
+      {
+        "value": "luz",
+        "synonyms": [
+          "luz"
+        ]
+      },
+      {
+        "value": "bombillo",
+        "synonyms": [
+          "bombillo"
+        ]
+      },
+      {
+        "value": "farol",
+        "synonyms": [
+          "farol"
+        ]
+      }
+    ],
+    "id": "e5f7263d-9a31-4859-87d8-736012e110f6",
+    "isOverridable": false
+  }
