@@ -1,1 +1,4 @@
-# AtomChat-The_escape_room
+# THE ESCAPE ROOM CHAT
+
+## Text-based gaming and learning through machine learning
+
