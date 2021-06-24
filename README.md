@@ -86,7 +86,7 @@ This project is licensed under the [MIT](https://choosealicense.com/licenses/mit
 
 ## Acknowledgements
 
-- Atom Chat:
+- Atom Chat
 
 [![Atom Chat Logo](https://atomchat.io/wp-content/uploads/2021/02/logo-atom.png)](https://atomchat.io/en/home/)
 
