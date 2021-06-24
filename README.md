@@ -63,7 +63,7 @@ $ cd AtomChat-The_escape_room/
 ```
 
 
-## Deployment, Integration with Telegram
+## Deployment and Integration with Telegram
 
 To deploy and use in Telegram
 
