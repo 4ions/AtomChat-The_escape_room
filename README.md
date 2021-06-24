@@ -16,11 +16,11 @@
 
 <div align="center">
 <p align="center">
-  <img alt="The Escape Room Srceenshot 1" src="./media/the_escape_room.gif" width="45%">
+  <img alt="The Escape Room Srceenshot 1" src="./media/the_escape_room.gif" width="30%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="The Escape Room Srceenshot 2" src="./media/the_escape_room.gif" width="45%">
+  <img alt="The Escape Room Srceenshot 2" src="./media/the_escape_room.gif" width="30%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-<img alt="The Escape Room Srceenshot 2" src="./media/the_escape_room.gif" width="45%">
+<img alt="The Escape Room Srceenshot 2" src="./media/the_escape_room.gif" width="30%">
 </p>
 
 </div>
