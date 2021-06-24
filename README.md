@@ -15,7 +15,14 @@
 <br>
 
 <div align="center">
-<img src="./media/the_escape_room.gif" alt="The Escape Room Srceenshot">
+<p align="center">
+  <img alt="The Escape Room Srceenshot 1" src="./media/the_escape_room.gif" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="The Escape Room Srceenshot 2" src="./media/the_escape_room.gif" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+<img alt="The Escape Room Srceenshot 2" src="./media/the_escape_room.gif" width="45%">
+</p>
+
 </div>
 
 ## Getting Started
