@@ -22,8 +22,6 @@
 
 ### Requirements
 
-To run The Escape Room on development mode on your local machine, you must:
-
 1. Create a GCP account: https://cloud.google.com/apigee/docs/hybrid/v1.1/precog-gcpaccount
     * Get your Goole Project ID
 2. Create a GCP project: https://cloud.google.com/apigee/docs/hybrid/v1.1/precog-gcpproject
@@ -37,19 +35,21 @@ To run The Escape Room on development mode on your local machine, you must:
 5. Create a Dialogflow ES project: https://cloud.google.com/dialogflow/es/docs/quick/setup
     * Set Language: Spanish - es
     * Import agent EscapeRoomBot.zip: https://cloud.google.com/dialogflow/es/docs/agents-settings
-6. Install Node.js and npm: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
-7. Install npm packages an client libraries
+
+## Running the project
+
+To run The Escape Room on development mode on your local machine, you must:
+
+1. Install Node.js and npm: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+2. Install npm packages an client libraries
 ```bash
 $ npm install --save firebase
 $ npm install --save @google-cloud/vision
 $ npm install --save @google-cloud/translate
 $ npm install --save @google-cloud/language
 ```
-
-## Running the project
-
-1. Set your GCP authentication: https://cloud.google.com/docs/authentication/getting-started
-2. Clone the repository and execute backend:
+3. Set your GCP authentication: https://cloud.google.com/docs/authentication/getting-started
+4. Clone the repository and execute backend:
 ```bash
 $ git clone https://github.com/Jong9106/AtomChat-The_escape_room
 $ cd AtomChat-The_escape_room/
