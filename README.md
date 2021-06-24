@@ -18,7 +18,9 @@
 <img src="./media/the_escape_room.gif" alt="The Escape Room Srceenshot">
 </div>
 
+## Getting Started
 
+## Deployment
 
 ## Tech Stack
 
