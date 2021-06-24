@@ -69,6 +69,13 @@ To deploy and use in Telegram
 
 ## Play
 
+Just start with: Estas ahi?
+
+<div align="center">
+<p align="center">
+  <img alt="The Escape Room Srceenshot 1" src="./media/the_escape_room.gif" width="30%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+</div>
 
 ## Tech Stack
 
