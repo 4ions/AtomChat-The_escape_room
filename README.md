@@ -58,7 +58,7 @@ $ cd AtomChat-The_escape_room/
 
 ## Deployment
 
-To deploy and use in telegram 
+To deploy and use in Telegram 
 
 ## Tech Stack
 
