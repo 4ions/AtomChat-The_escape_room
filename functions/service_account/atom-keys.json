@@ -1,12 +1,12 @@
 {
-  "type": "service_account",
-  "project_id": "atom-escaperoom",
-  "private_key_id": "ee8dcfaca9dc1bb9869046d92332992bc44cc88b",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCgKuHRRYnlycuN\noI/9X9A5IhRr+HfwkLbLH8SAPjyNDfUvsFKRhdtlyVBz0yrZKzggi+frD6p22hHY\nkv0AbHepSHUuX24iFDGz1WBcu9krpgogQ7GPLIiZ/eZZ6NZqBTKTMJ2IH7Xua+Fj\nXfEq/AoPOp+d1KieaDvLPsBhmDiyOdDM0xDtmxJiNPs6ip8roSEsH38l5BowDLgA\n7b5cmQB1NUCT6/eucQlclHx304XhNjIhC+wKXbMEu96F8POeuJMl3Wdq5qXN/FM3\n/NSBz8pw8nahO6KysH7ym8cf0zTB2sr9osFsysPsueOCLnMvP/BeCOBFiX4FTw5A\nSslGjZzdAgMBAAECggEADAx7HS0mwj/zstqxske8qCue5H9rdbqhMaHDvGT81PHy\n8EyKmD1nrjNz0f7AR1gnulUOqYFtxfqXeJbCzGnHIleGedT+eeGnL9t89VpBQaDA\nPBdI5RfJH+fN0L+CBQrmjX7iVDeUeKl/afmgFzx2EkQLTAolHs4sX1iqtrzG2RX/\nU3sEPU2M0Et5nSjhZFMfI3ib2Bk8CIGT7YIruAuGpuYyvEKSIprzHqgYCLit1h+j\nEviWfF/3SC1W87l/CwIfIYRXo477m6X9rkQ+SJorGNQrVmaKWaw3C7dkrfE/T4Lw\nG47L9Um4YDX4tc2epgaM20C+g73VojsBhH67rLXB6QKBgQDVnIbzac9dHwrxcJBl\nPvZcSBJGGDG97D6IOc2q0na1gR5piDQfEhTZnpriqBbuAigjVB5hhAn3fwlCUBNv\n4UaEiSYrKX3BtxEvTl3u8SSOiLpckpOQpNxuQTGkaF5DZJiYVkPuSNgmloTsiWsw\nmONwe4hpSYiXVAvDjdUUyvYdeQKBgQC/82aHqUEIicpUh5PF/SK2LqkzfsvcvTqU\n2y04GOsC9R5DRmD1I6zUOtQw70ZqQ7TVjPoQ8i4amaTcQgb/kg+2/QOcTn9YPcwg\nrOsvwhri7FiveJIKc/1VyeEYVerczjB0YAmeFtTZHa0LKlXEjQNRejYwGyMAXdPi\nap2cLPh1hQKBgC6WLaRmni/r9kIDz6oVGju0CDA7VJXcMSMaoC0yK2uYVl6jsuJX\n2i4/9f2atS2BUOmrjdisqFPO4+EPf721vuBm3Okq6l9WIqxThg73joZ7cVGBMieo\nnN56323AyVYfWVxX7AbK4kFAMIs5ySPXJDtC5dQ4kk6WqN4kT6VyQkzZAoGAF3de\nNX+Pn8eYoLTib/X+ZF9X+B+sNJQ9sS0KXi1NrdLhnD/iYpW170wx3Lmj1iHo3aKa\nf6/bywy1hufbiysEGM7dviIql1MWvXfmWLRWLR/Px8PptrVvZymDB0KZr9zVN6T2\nCAmqg9CI8zB9w8WpfjB+p2rp4IWX/bojApDM3zECgYEAj8HYZdwcRl+Avu7288mJ\nXIRVLtYkccb0TrtSuwopyb6jdTm9SqTPP6nWDbyIe0/oA5seAjyLKaAc/Lce8tZt\nGNdIBOaoMLESPF75RgcB0QwK5Zusudm587zA7WkmWk4HScIArn9KYxEb7gdajs2m\nzHCfLbyvDmmu/qG0tHjBhdk=\n-----END PRIVATE KEY-----\n",
-  "client_email": "atom-room-escape-202023233@atom-escaperoom.iam.gserviceaccount.com",
-  "client_id": "100926125591791241808",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/atom-room-escape-202023233%40atom-escaperoom.iam.gserviceaccount.com"
+  "type": "type of service",
+  "project_id": "your project id",
+  "private_key_id": "Your private key id",
+  "private_key": "your private key,
+  "client_email": "your client email",
+  "client_id": "your client email id",
+  "auth_uri": "auth url",
+  "token_uri": "token url",
+  "auth_provider_x509_cert_url": "auth provide url",
+  "client_x509_cert_url": "client cert url"
 }
